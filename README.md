@@ -93,6 +93,7 @@ log(array1 === array2); => false
     - in others words `obj.fn(a,b);` the `obj` found to the left of the dot (the `obj` that `fn` belongs to) is `this`
 ###Example
     ____________
+
   - input parameters to a function only have binding when that function is actually running
 
   ```javascript
@@ -127,7 +128,9 @@ log(array1 === array2); => false
   ____________
 
   **Q** What if you want `this` to refer to an object that does not have the function it is invoked within as a property of it?
+
   **A** You can invoke the `call` method
+
     - This will allow you to pass in any value you want `this` to refer to
     - Note: the use of `call` overrides the dot access rule, so for instance
 
