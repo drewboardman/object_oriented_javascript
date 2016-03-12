@@ -55,6 +55,7 @@ log(thisThing);
     - Even though the keys in the execution context may be identical to those that you declare within your code, they are handled differently by the interpreter
       - Where you could loop over the objects declared within a given scope, you cannot do the same with execution contexts.
   - Say for instance you have the following
+
   ```javascript
   var foo = someFunction();
   var myFunction = function() {
