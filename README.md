@@ -6,7 +6,7 @@
   - In some JS environments, global scope is shared across different files
     - if you add a variable to the global scope, it is available within the entire program
     - you can create a lexical scope by adding a function
-    ``javascript
+    ```javascript
     var myFunction = function() {
       var lexicallyScopedVariable = 'foo'
     }
