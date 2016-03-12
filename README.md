@@ -131,8 +131,8 @@ log(array1 === array2); => false
 
   **A** You can invoke the `call` method
 
-    - This will allow you to pass in any value you want `this` to refer to
-    - Note: the use of `call` overrides the dot access rule, so for instance
+  - This will allow you to pass in any value you want `this` to refer to
+  - Note: the use of `call` overrides the dot access rule, so for instance
 
   ```javascript
   var fn = function(one, two){
